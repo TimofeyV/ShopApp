@@ -24,7 +24,7 @@ def index(request):
         'title': 'Главная',
         'menu': menu,
     }
-    return render(request, 'mainapp.index.html', context)
+    return render(request, 'mainapp/index.html', context)
 
 
 def about(request):
@@ -33,7 +33,7 @@ def about(request):
         'menu': menu
     }
     logger.info("About page accessed")
-    return render(request, 'mainapp.about.html', context)
+    return render(request, 'mainapp/about.html', context)
 
 
 def orders_on_date(request, days):
@@ -42,4 +42,4 @@ def orders_on_date(request, days):
         'menu': menu,
     }
     logger.info('Orders for days page accessed')
-    return render(request, 'mainapp.orders_for_day.html')
+    return render(request, 'mainapp/orders_for_day.html')
