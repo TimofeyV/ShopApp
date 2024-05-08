@@ -1,0 +1,89 @@
+h2{
+    width: 100%;
+    text-align: center;
+    margin: 100px 0 30px 0;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 15%;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 230px;
+    height: 300px;
+    background-color: whitesmoke;
+    margin: 10px;
+    border-radius: 14px;
+    border: 2px solid #bbdbff;
+    box-shadow: 0px 0px 10px #1d3d5b
+}
+
+h3, p{
+    color: #10141c;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+
+.choose-days{
+    width: 100%;
+    text-align: center;
+    padding: 0 15%;
+}
+
+.choose-days button{
+    position: relative;
+    width: 9vh;
+    height: 5vh;
+    border: none;
+    border-radius: 50px;
+    margin: 0 20px;
+    z-index: 1;
+    background: linear-gradient(60deg, #a32786 30%, #07fade);
+}
+
+.choose-days button::after{
+    background-color: #0c1529;
+}
+
+.choose-days button::before{
+    content: '';
+    position: absolute;
+    inset: 0px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(60deg, #a32786 30%, #07fade);
+    z-index: -1;
+    transition: .7s ease;
+    border: 50px;
+    border-radius: 50px;
+}
+
+.choose-days button::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 95%;
+    background: #0c1529;
+    border-radius: 55px;
+    transform: scale(.95);
+    inset: 1.45px 0;
+    z-index: -1;
+    transition: .7s ease;
+}
+
+.choose-days button:hover:after{
+        transform: scale(0);
+}
+
+
+.choose-days a{
+    color: #e1e5e8;
+    text-decoration: none;
+    font-size: 27px;
+}

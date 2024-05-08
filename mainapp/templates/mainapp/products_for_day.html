@@ -1,0 +1,30 @@
+{% extends 'mainapp/base.html' %}
+{% load static %}
+
+{% block link %}
+<link rel="stylesheet" href="{% static 'css/products.css'%}" >
+{% endblock %}
+
+{% block title %}
+{{title}}
+{% endblock %}
+
+
+{% block content %}
+<h2>Товары заказанные за последние {{days}} дней:</h2>
+<div class="choose-days">
+    <button><a href="{%url 'products_for_date' 7 %}">7</a></button>
+    <button><a href="{%url 'products_for_date' 30 %}">30</a></button>
+    <button><a href="{%url 'products_for_date' 365 %}">365</a></button>
+</div>
+<section class="products">
+    {% for product in products %}
+    <div id="product" class="product">     
+        <h3>Товар № {{product.id}}</h2>
+        <p> {{product.name}} </p>
+        <p>{{product.desc}}</p>
+        <p>{{product.price}}</p>    
+    </div>
+    {% endfor %}
+</section>
+{% endblock %}
