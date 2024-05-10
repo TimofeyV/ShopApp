@@ -1,0 +1,28 @@
+{% extends 'mainapp/base.html' %}
+{% load static %}
+
+{% block link %}
+<link rel="stylesheet" href="{% static 'css/products.css'%}" >
+{% endblock %}
+
+{% block title %}
+{{title}}
+{% endblock %}
+
+
+{% block content %}
+<section class="products">
+    <h2 class="catalog_h2">Товары</h2>
+    {% for product in products %}
+    
+    <a href="{% url 'product_detail' product.id %}" class="product_url"><div id="product" class="product">     
+        <h3>Товар № {{product.id}}</h2>
+        <p> {{product.name}} </p>
+        {% if product.image %}
+            <img src="{{ product.image.url }}" alt="">
+        {% endif %}
+        <p>{{product.price}}</p>    
+    </div></a>
+    {% endfor %}
+</section>
+{% endblock %}

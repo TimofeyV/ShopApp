@@ -1,0 +1,32 @@
+{% extends 'mainapp/base.html' %}
+{% load static %}
+
+{% block link %}
+<link rel="stylesheet" href="{% static 'css/detail.css'%}" >
+{% endblock %}
+
+{% block title %}
+{{title}}
+{% endblock %}
+
+
+{% block content %}
+
+<section class="product">
+    {% if product %}
+    <h2>{{product.name}}</h2>
+    <div class="desc">
+        <div class="div-image">
+            {% if product.image %}
+                <img src="{{ product.image.url}}" alt="">
+            {% else %}
+                <img src="{% static 'img/without_photo.png' %}" alt="">
+            {% endif %} 
+            <button><a href="{% url 'add_product_image' product.id %}">Загрузить изображение</a></button>
+        </div>   
+        <p>{{product.desc}} </p>
+    </div>
+    <p class="price">{{product.price}} руб.</p>
+    {% endif %}
+</section>
+{% endblock %}
