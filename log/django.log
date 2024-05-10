@@ -7752,3 +7752,117 @@ INFO 2024-05-10 14:29:33,152 views 3860 12524, Success upload image
 INFO 2024-05-10 14:29:33,153 basehttp 3860 12524, "POST /catalog/2/addimage HTTP/1.1" 302 0
 INFO 2024-05-10 14:29:33,157 basehttp 3860 12524, "GET /catalog/ HTTP/1.1" 200 2394
 INFO 2024-05-10 14:29:33,170 basehttp 3860 12524, "GET /media/products/122.jpg HTTP/1.1" 200 129822
+INFO 2024-05-10 14:35:54,739 basehttp 3860 3016, "GET /admin/ HTTP/1.1" 200 11328
+INFO 2024-05-10 14:35:54,751 basehttp 3860 9212, "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2024-05-10 14:35:54,751 basehttp 3860 3016, "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2024-05-10 14:35:54,752 basehttp 3860 2204, "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2024-05-10 14:35:54,763 basehttp 3860 2204, "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2024-05-10 14:35:54,763 basehttp 3860 3016, "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2024-05-10 14:35:54,763 basehttp 3860 9212, "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2024-05-10 14:35:54,765 basehttp 3860 9212, "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2024-05-10 14:35:54,769 basehttp 3860 9212, "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2024-05-10 14:35:54,769 basehttp 3860 3016, "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 304 0
+WARNING 2024-05-10 14:35:56,069 log 3860 3016, Not Found: /favicon.ico
+WARNING 2024-05-10 14:35:56,069 basehttp 3860 3016, "GET /favicon.ico HTTP/1.1" 404 3810
+INFO 2024-05-10 14:37:17,767 autoreload 3860 12412, D:\Проекты\Python\Django\shop\mainapp\apps.py changed, reloading.
+INFO 2024-05-10 14:37:18,058 autoreload 3924 2960, Watching for file changes with StatReloader
+INFO 2024-05-10 14:37:23,107 basehttp 3924 14128, "GET /admin/ HTTP/1.1" 200 11388
+INFO 2024-05-10 14:37:23,168 basehttp 3924 14128, "GET /static/admin/css/base.css HTTP/1.1" 200 21544
+INFO 2024-05-10 14:37:23,169 basehttp 3924 14128, "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-05-10 14:37:23,180 basehttp 3924 13820, "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+INFO 2024-05-10 14:37:23,182 basehttp 3924 7380, "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-05-10 14:37:23,182 basehttp 3924 636, "GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+INFO 2024-05-10 14:37:23,182 basehttp 3924 13304, "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-05-10 14:37:23,182 basehttp 3924 4228, "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2024-05-10 14:37:23,185 basehttp 3924 13304, "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-05-10 14:37:23,185 basehttp 3924 4228, "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+WARNING 2024-05-10 14:37:23,196 log 3924 13304, Not Found: /favicon.ico
+WARNING 2024-05-10 14:37:23,196 basehttp 3924 13304, "GET /favicon.ico HTTP/1.1" 404 3810
+INFO 2024-05-10 14:39:44,101 autoreload 3924 2960, D:\Проекты\Python\Django\shop\mainapp\models.py changed, reloading.
+INFO 2024-05-10 14:39:44,396 autoreload 12924 12948, Watching for file changes with StatReloader
+INFO 2024-05-10 14:41:10,615 autoreload 12924 12948, D:\Проекты\Python\Django\shop\mainapp\models.py changed, reloading.
+INFO 2024-05-10 14:41:10,872 autoreload 1280 2996, Watching for file changes with StatReloader
+INFO 2024-05-10 14:53:20,872 autoreload 11412 12456, Watching for file changes with StatReloader
+INFO 2024-05-10 14:53:28,859 views 11412 11888, Index page accessed
+INFO 2024-05-10 14:53:28,865 basehttp 11412 11888, "GET / HTTP/1.1" 200 3121
+INFO 2024-05-10 14:53:30,699 basehttp 11412 11888, "GET /admin/ HTTP/1.1" 200 11392
+INFO 2024-05-10 14:53:33,422 basehttp 11412 11888, "GET /admin/mainapp/user/ HTTP/1.1" 200 12783
+INFO 2024-05-10 14:53:33,436 basehttp 11412 11888, "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2024-05-10 14:53:33,438 basehttp 11412 13572, "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2024-05-10 14:53:33,440 basehttp 11412 2980, "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2024-05-10 14:53:33,440 basehttp 11412 6476, "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2024-05-10 14:53:33,440 basehttp 11412 11888, "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2024-05-10 14:53:33,441 basehttp 11412 13572, "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2024-05-10 14:53:33,442 basehttp 11412 13792, "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2024-05-10 14:53:33,443 basehttp 11412 2980, "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2024-05-10 14:53:33,443 basehttp 11412 6476, "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2024-05-10 14:53:33,444 basehttp 11412 13572, "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2024-05-10 14:53:33,445 basehttp 11412 5884, "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 14:53:33,448 basehttp 11412 5884, "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2024-05-10 14:53:33,462 basehttp 11412 5884, "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2024-05-10 14:53:33,462 basehttp 11412 6476, "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 304 0
+INFO 2024-05-10 14:53:33,462 basehttp 11412 13572, "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 304 0
+INFO 2024-05-10 14:53:39,204 basehttp 11412 13572, "GET /admin/mainapp/product/ HTTP/1.1" 200 13372
+INFO 2024-05-10 14:53:39,215 basehttp 11412 13572, "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 14:53:41,703 basehttp 11412 13572, "GET /admin/mainapp/order/ HTTP/1.1" 200 12608
+INFO 2024-05-10 14:53:41,717 basehttp 11412 13572, "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 14:54:37,102 autoreload 11412 12456, D:\Проекты\Python\Django\shop\mainapp\admin.py changed, reloading.
+INFO 2024-05-10 14:54:37,397 autoreload 12864 4360, Watching for file changes with StatReloader
+INFO 2024-05-10 14:54:53,781 autoreload 12864 4360, D:\Проекты\Python\Django\shop\mainapp\admin.py changed, reloading.
+INFO 2024-05-10 14:54:54,073 autoreload 7644 4944, Watching for file changes with StatReloader
+INFO 2024-05-10 14:55:12,447 autoreload 7644 4944, D:\Проекты\Python\Django\shop\mainapp\admin.py changed, reloading.
+INFO 2024-05-10 14:55:12,733 autoreload 9780 8564, Watching for file changes with StatReloader
+INFO 2024-05-10 14:55:14,808 basehttp 9780 12500, "GET /admin/mainapp/product/ HTTP/1.1" 200 13430
+INFO 2024-05-10 14:55:14,826 basehttp 9780 3352, "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 14:55:14,877 basehttp 9780 12500, "GET /static/admin/css/base.css HTTP/1.1" 200 21544
+INFO 2024-05-10 14:55:14,878 basehttp 9780 12500, "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-05-10 14:55:14,879 basehttp 9780 12500, "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2024-05-10 14:55:14,880 basehttp 9780 12576, "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-05-10 14:55:14,881 basehttp 9780 12500, "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+INFO 2024-05-10 14:55:14,881 basehttp 9780 12576, "GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+INFO 2024-05-10 14:55:14,882 basehttp 9780 12500, "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2024-05-10 14:55:14,883 basehttp 9780 12404, "GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+INFO 2024-05-10 14:55:14,884 basehttp 9780 12576, "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-05-10 14:55:14,884 basehttp 9780 2056, "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+INFO 2024-05-10 14:55:14,884 basehttp 9780 4156, "GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+INFO 2024-05-10 14:55:14,885 basehttp 9780 12404, "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2024-05-10 14:55:14,886 basehttp 9780 3352, "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2024-05-10 14:55:14,887 basehttp 9780 12500, "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2024-05-10 14:55:14,890 basehttp 9780 12500, "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2024-05-10 14:55:14,895 basehttp 9780 12500, "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-05-10 14:55:14,902 basehttp 9780 12500, "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2024-05-10 14:55:14,910 basehttp 9780 12500, "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-05-10 14:55:14,910 basehttp 9780 3352, "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2024-05-10 14:55:14,911 basehttp 9780 12404, "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+INFO 2024-05-10 14:55:14,911 basehttp 9780 2056, "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+WARNING 2024-05-10 14:55:14,951 log 9780 2056, Not Found: /favicon.ico
+WARNING 2024-05-10 14:55:14,951 basehttp 9780 2056, "GET /favicon.ico HTTP/1.1" 404 3810
+INFO 2024-05-10 14:56:14,797 autoreload 9780 8564, D:\Проекты\Python\Django\shop\mainapp\admin.py changed, reloading.
+INFO 2024-05-10 14:56:15,100 autoreload 528 13284, Watching for file changes with StatReloader
+INFO 2024-05-10 14:56:17,312 basehttp 528 11628, "GET /admin/mainapp/product/ HTTP/1.1" 200 13468
+INFO 2024-05-10 14:56:17,332 basehttp 528 8792, "GET /admin/jsi18n/ HTTP/1.1" 200 17546
+INFO 2024-05-10 14:56:17,385 basehttp 528 11628, "GET /static/admin/css/base.css HTTP/1.1" 200 21544
+INFO 2024-05-10 14:56:17,386 basehttp 528 11628, "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-05-10 14:56:17,387 basehttp 528 13132, "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-05-10 14:56:17,389 basehttp 528 11628, "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2024-05-10 14:56:17,389 basehttp 528 2920, "GET /static/admin/css/changelists.css HTTP/1.1" 200 6811
+INFO 2024-05-10 14:56:17,389 basehttp 528 1004, "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2682
+INFO 2024-05-10 14:56:17,389 basehttp 528 13132, "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9042
+INFO 2024-05-10 14:56:17,390 basehttp 528 12132, "GET /static/admin/css/responsive.css HTTP/1.1" 200 17905
+INFO 2024-05-10 14:56:17,392 basehttp 528 11628, "GET /static/admin/js/actions.js HTTP/1.1" 200 8067
+INFO 2024-05-10 14:56:17,393 basehttp 528 13132, "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-05-10 14:56:17,393 basehttp 528 1004, "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2024-05-10 14:56:17,394 basehttp 528 12132, "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2024-05-10 14:56:17,396 basehttp 528 8792, "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2024-05-10 14:56:17,396 basehttp 528 2920, "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2024-05-10 14:56:17,399 basehttp 528 2920, "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+INFO 2024-05-10 14:56:17,402 basehttp 528 2920, "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-05-10 14:56:17,405 basehttp 528 2920, "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2024-05-10 14:56:17,409 basehttp 528 13132, "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2024-05-10 14:56:17,409 basehttp 528 2920, "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-05-10 14:56:17,409 basehttp 528 8792, "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2024-05-10 14:56:17,409 basehttp 528 12132, "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+WARNING 2024-05-10 14:56:17,427 log 528 12132, Not Found: /favicon.ico
+WARNING 2024-05-10 14:56:17,428 basehttp 528 12132, "GET /favicon.ico HTTP/1.1" 404 3810
+INFO 2024-05-10 15:02:00,624 autoreload 528 13284, D:\Проекты\Python\Django\shop\mainapp\admin.py changed, reloading.
+INFO 2024-05-10 15:02:00,938 autoreload 13592 3020, Watching for file changes with StatReloader
